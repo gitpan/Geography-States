@@ -1,0 +1,5 @@
+MANIFEST
+lib/Geography/States.pm
+Makefile.PL
+test.pl
+META.yml                                 Module meta-data (added by MakeMaker)
