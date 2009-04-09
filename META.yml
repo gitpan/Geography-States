@@ -1,10 +1,24 @@
-# http://module-build.sourceforge.net/META-spec.html
-#XXXXXXX This is a prototype!!!  It will change in the future!!! XXXXX#
-name:         Geography-States
-version:      2.1
-version_from: lib/Geography/States.pm
-installdirs:  site
+--- #YAML:1.0
+name:               Geography-States
+version:            2009040901
+abstract:           Map states and provinces to their codes, and vica versa.
+author:
+    - Abigail <geography-states@abigail.be>
+license:            mit
+distribution_type:  module
+configure_requires:
+    ExtUtils::MakeMaker:  0
+build_requires:
+    ExtUtils::MakeMaker:  0
 requires:
-
-distribution_type: module
-generated_by: ExtUtils::MakeMaker version 6.30
+    perl:  5.006
+resources:
+    repository:  git://github.com/Abigail/geography--states.git
+no_index:
+    directory:
+        - t
+        - inc
+generated_by:       ExtUtils::MakeMaker version 6.50
+meta-spec:
+    url:      http://module-build.sourceforge.net/META-spec-v1.4.html
+    version:  1.4
